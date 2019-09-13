@@ -1,0 +1,44 @@
+
+section.slide_container{
+    height: 100%;
+    width: 30%;
+    position: absolute;
+    left: 50%;
+    margin-left: -140px;
+    /* transition: width 1s .4s; */
+}
+
+.img_container{
+    position: relative;
+    top:100%;
+    margin-top: -250px;
+}
+
+.pos{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+
+
+.viewing-page-1 .sec1{
+    opacity:1
+}
+.viewing-page-1 .sec2{
+    opacity:0
+}
+.viewing-page-1 .sec3{
+    opacity:0
+}
+.viewing-page-1 .sec4{
+    opacity:0
+}
+.viewing-page-1 .sec5{
+    opacity:0
+}
+.viewing-page-1 .sec6{
+    opacity:0
+}
+.viewing-page-1 .sec7{
+    opacity:0
+}
