@@ -15,7 +15,6 @@
 }
 
 div.slide_container{
-    width: 30%;
     position: absolute;
     left: 50%;
     margin-left: -140px;
@@ -24,8 +23,7 @@ div.slide_container{
 
 .img_container{
     position: relative;
-    top:100%;
-    margin-top: -250px;
+    bottom: -350px;
 }
 
 .pos{
