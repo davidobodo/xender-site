@@ -1,6 +1,20 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 
-section.slide_container{
-    height: 100%;
+#one{
+    background-color: #090b1a;
+    height: 100vh;
+}
+
+#two{
+    background-color: #18c1d6;
+    height: 100vh;
+}
+
+div.slide_container{
     width: 30%;
     position: absolute;
     left: 50%;
