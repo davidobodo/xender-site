@@ -27,12 +27,13 @@ div.slide_container{
     position: absolute;
     left: 50%;
     margin-left: -140px;
-    /* transition: width 1s .4s; */
+    top:100%;
+    transition: margin-left 2s .4s, top 1s .4s;
 }
 
 .img_container{
     position: relative;
-    bottom: -350px;
+    bottom: 350px;
     z-index: 1;
 }
 
