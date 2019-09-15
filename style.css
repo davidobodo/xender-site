@@ -6,8 +6,10 @@
 
 main{
     position: relative;
-    transform: translate3d(0px, 0vh, 0px)
+    transform: translate3d(0px, 0vh, 0px);
+    transition: all 900ms ease 0s;
 }
+
 
 #one{
     background-color: #090b1a;
@@ -40,31 +42,33 @@ div.slide_container{
     left: 0;
 }
 
-.viewing-page-1 .sec1{
-    opacity:1
-}
-.viewing-page-1 .sec2{
+.sec1{
     opacity:0
 }
-.viewing-page-1 .sec3{
+.sec2{
     opacity:0
 }
-.viewing-page-1 .sec4{
+.sec3{
     opacity:0
 }
-.viewing-page-1 .sec5{
+.sec4{
     opacity:0
 }
-.viewing-page-1 .sec6{
+.sec5{
     opacity:0
 }
-.viewing-page-1 .sec7{
+.sec6{
+    opacity:0
+}
+.sec7{
     opacity:0
 }
 
-.viewing-page-2{
-    transform: translate3d(0px, -100vh, 0px)
+.activeImage{
+    opacity: 1
 }
+
+
 
 .movedown_container{
     position: absolute;
