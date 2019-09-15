@@ -27,14 +27,22 @@ div.slide_container{
     position: absolute;
     left: 50%;
     margin-left: -140px;
-    top:100%;
-    transition: margin-left 2s .4s, top 1s .4s;
+    top:60%;
+    transition: margin-left 1s .4s, top 1s .4s;
 }
 
-.img_container{
+#one .slide_container .img_container{
     position: relative;
-    bottom: 350px;
     z-index: 1;
+}
+
+#two .img_container{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-left: -140px;
+    opacity: 0;
+    transition: margin-left 1s .4s, opacity 1s .4s; 
 }
 
 .pos{
@@ -44,7 +52,7 @@ div.slide_container{
 }
 
 .sec1{
-    opacity:0
+    opacity:1
 }
 .sec2{
     opacity:0
