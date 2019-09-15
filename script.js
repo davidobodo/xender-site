@@ -35,3 +35,18 @@ function page4 (){
     }, 1000)
    
 }
+
+document.querySelector('.four_next').addEventListener('click', page5);
+
+function page5 (){
+    document.querySelector('main').style.transform = 'translate3d(0px, -400vh, 0px)';
+    document.querySelector('.slide_container').style.top = '410%';
+    document.querySelector('.sec4').classList.remove('activeImage');
+    document.querySelector('.sec6').classList.add('activeImage');
+    
+    document.querySelector('#four .img_container').style.left = '35%'
+    document.querySelector('#four .img_container').style.top = '105%'
+    document.querySelector('.sec5').classList.remove('activeImage');
+    document.querySelector('.sec7').classList.add('activeImage')
+   
+}
