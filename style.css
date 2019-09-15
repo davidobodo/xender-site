@@ -59,6 +59,16 @@ div.slide_container{
     transition: left 1s .4s, opacity 1s .4s; 
 }
 
+#four .img_container{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    margin-left: -100px;
+    opacity: 0;
+    width: 200px;
+    transition: left 1s .4s, opacity 1s .4s; 
+}
+
 img{
     width: 100%;
 }

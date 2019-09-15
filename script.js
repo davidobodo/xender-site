@@ -30,8 +30,8 @@ function page4 (){
     document.querySelector('.sec3').classList.remove('activeImage');
     document.querySelector('.sec4').classList.add('activeImage');
     window.setTimeout(function moveside(){
-        document.querySelector('.sec5').classList.add('activeImage')
-        document.querySelector('.sec5').style.left = '70%'
+        document.querySelector('#four .img_container').style.left = '70%'
+        document.querySelector('#four .img_container').style.opacity = '1'
     }, 1000)
    
 }
