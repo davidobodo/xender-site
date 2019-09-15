@@ -23,26 +23,44 @@ main{
     position: relative;
 }
 
+#three{
+    background-color: #65060c;
+    height: 100vh;
+    position: relative;
+}
+
+#four{
+    background-color: #7c50fb;
+    height: 100vh;
+    position: relative;
+}
+
 div.slide_container{
     position: absolute;
     left: 50%;
-    margin-left: -140px;
+    margin-left: -100px;
     top:60%;
-    transition: margin-left 1s .4s, top 1s .4s;
+    transition: left 1s .4s, top 1s .4s;
 }
 
 #one .slide_container .img_container{
     position: relative;
     z-index: 1;
+    width: 200px;
 }
 
 #two .img_container{
     position: absolute;
     top: 10%;
     left: 50%;
-    margin-left: -140px;
+    margin-left: -100px;
     opacity: 0;
-    transition: margin-left 1s .4s, opacity 1s .4s; 
+    width: 200px;
+    transition: left 1s .4s, opacity 1s .4s; 
+}
+
+img{
+    width: 100%;
 }
 
 .pos{
@@ -89,6 +107,34 @@ div.slide_container{
 }
 
 .one_next{
+    width: 26px;
+    height: 16px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -13px ;
+    background: url('img/ic_one_next.png');
+    animation-name: movedown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.two_next{
+    width: 26px;
+    height: 16px;
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    margin-left: -13px ;
+    background: url('img/ic_one_next.png');
+    animation-name: movedown;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.three_next{
     width: 26px;
     height: 16px;
     position: absolute;
